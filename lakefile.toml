@@ -1,0 +1,10 @@
+name = "Anything-Lang-Assistant"
+version = "0.1.0"
+defaultTargets = ["anything-lang-assistant"]
+
+[[lean_lib]]
+name = "AnythingLangAssistant"
+
+[[lean_exe]]
+name = "anything-lang-assistant"
+root = "Main"
